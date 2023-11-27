@@ -9,8 +9,8 @@ Código criado do zero, com base nos vídeos das aulas.
 
 Você pode conferir o jogo 
 
-👇
-[AQUI](https://suaymack.github.io/piano-simulator/) 👈 
+
+👉 [AQUI](https://suaymack.github.io/piano-simulator/) 👈 
 
 ## Tecnologias
 
