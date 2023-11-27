@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e3f2fd;
+}
+
+.container {
+  width: 48rem;
+  border-radius: 20px;
+  padding: 2rem 2.5rem ;
+  background-color: #030303;
+  color: #e3f2fd;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 1.6rem;
+}
+
+header .column {
+  display: flex;
+  align-items: center;
+}
+
+header .column span {
+  font-weight: 500;
+  margin-right: 15px;
+  font-size: 1.19rem;
+}
+
+.column.volume-slider input{
+  accent-color: #ebeef0;
+}
+
+.column.keys-check input{
+  position: relative;
+  width: 60px;
+  height: 30px;
+  appearance: none;
+  border-radius: 30px;
+  background-color: #4b4b4b;
+  cursor: pointer;
+}
+
+.column.keys-check input::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  left: .3rem;
+  background-color: #8c8c8c;
+  border-radius: inherit;
+  transform: translateY(-50%);
+  transition: all .3s ease;
+}
+
+.column.keys-check input:checked:before {
+  left: 30px;
+  background-color: #ebeef0;
+}
+
+.piano-keys {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.piano-keys .key {
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  color: #a2a2a2;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.piano-keys .white {
+  width: 4.3rem;
+  height: 14.3rem;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #fff 0%, #ebeef0 90%);
+  color: #030303
+}
+
+.piano-keys .white:active {
+  box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to top, #fff 0%, #ebeef0 90%);
+}
+
+.piano-keys .black {
+  width: 4rem;
+  height: 7rem;
+  border-radius: 0 0 5px 5px;
+  z-index: 2;
+  margin: 0 22px 0 -22px;
+  background-image: linear-gradient(to bottom, #222222 0%, #0a0a0a 90%);
+  color: #a2a2a2;
+}
+
+.piano-keys .black:active {
+  box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.2);
+  background: linear-gradient(to top, #222222 0%, #0a0a0a 90%);
+}
+
+.piano-keys span {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  
+}
