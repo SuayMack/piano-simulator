@@ -5,7 +5,6 @@ Repositório referente ao simulador de piano, requisito para o bootcamp Potênci
 
 Código criado do zero, com base nos vídeos das aulas.
 
-Feito com 💜 por PriscilaCS
 ## Demonstração
 
 Você pode conferir o jogo 
@@ -19,3 +18,4 @@ Você pode conferir o jogo
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+Feito com 💜 por PriscilaCS
