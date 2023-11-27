@@ -5,12 +5,18 @@ Repositório referente ao simulador de piano, requisito para o bootcamp Potênci
 
 Código criado do zero, com base nos vídeos das aulas.
 
+## Aprendizado:
+- Manipulação de DOM
+- Tratamento e captura de elementos HTML
+- Adicionar e remover classes dinamicamente
+- EventListeners
+- Estilização de componentes padrão
+- Estilização de Pseudo elementos
+
 ## Demonstração
 
 Você pode conferir o jogo 
-
-
-👉 [AQUI](https://suaymack.github.io/piano-simulator/) 👈 
+- 👉 [AQUI](https://suaymack.github.io/piano-simulator/) 👈 
 
 ## Tecnologias
 
