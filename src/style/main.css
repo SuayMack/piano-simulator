@@ -121,5 +121,8 @@ header .column span {
   bottom: 20px;
   text-align: center;
   font-size: 1.2rem;
-  
+}
+
+.piano-keys .key.hide span {
+  display: none;
 }
